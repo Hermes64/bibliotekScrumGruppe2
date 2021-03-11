@@ -45,4 +45,15 @@ public class Books {
     public void setBookYear(String bookYear) {
         this.bookYear = bookYear;
     }
+
+
+    @Override
+    public String toString() {
+        return "Books{" +
+                "bookId=" + bookId +
+                ", bookName='" + bookName + '\'' +
+                ", bookAuthor='" + bookAuthor + '\'' +
+                ", bookYear='" + bookYear + '\'' +
+                '}';
+    }
 }

@@ -1,14 +1,14 @@
 package filialbiliotek.packages.Repository;
 
-import filialbiliotek.packages.Model.Borrower;
+import filialbiliotek.packages.Model.Members;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class BorrowerRepository implements IUsersRepository<Borrower> {
+public class BorrowerRepository implements IUsersRepository<Members> {
 
 
     @Override
-    public Borrower read(long id) {
+    public Members read(long id) {
         return null;
     }
 }
