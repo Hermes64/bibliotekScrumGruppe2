@@ -2,47 +2,47 @@ package filialbiliotek.packages.Model;
 
 public class Books {
 
-    private long id;
-    private String title;
-    private String author;
-    private String releaseDate;
+    private long bookId;
+    private String bookName;
+    private String bookAuthor;
+    private String bookYear;
 
-    public Books(long id, String title, String author, String releaseDate) {
-        this.id = id;
-        this.title = title;
-        this.author = author;
-        this.releaseDate = releaseDate;
+    public Books(long id, String bookName, String bookAuthor, String bookYear) {
+        this.bookId = id;
+        this.bookName = bookName;
+        this.bookAuthor = bookAuthor;
+        this.bookYear = bookYear;
     }
 
-    public long getId() {
-        return id;
+    public long getBookId() {
+        return bookId;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setBookId(long bookId) {
+        this.bookId = bookId;
     }
 
-    public String getTitle() {
-        return title;
+    public String getBookName() {
+        return bookName;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
     }
 
-    public String getAuthor() {
-        return author;
+    public String getBookAuthor() {
+        return bookAuthor;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setBookAuthor(String bookAuthor) {
+        this.bookAuthor = bookAuthor;
     }
 
-    public String getReleaseDate() {
-        return releaseDate;
+    public String getBookYear() {
+        return bookYear;
     }
 
-    public void setReleaseDate(String releaseDate) {
-        this.releaseDate = releaseDate;
+    public void setBookYear(String bookYear) {
+        this.bookYear = bookYear;
     }
 }
